@@ -1,0 +1,39 @@
+function addition(a,b){
+	alert(a*b);
+}
+
+function converter(){
+	var far=document.getElementById("far").value;
+	
+	var cel=5/9*(far-32);
+	
+	document.getElementById("cel").innerHTML=cel;
+}
+var x=new Date();
+document.getElementById("date").innerHTML=x.toDateString();
+
+var gender="female";
+if(gender=="male"){
+	alert("you are a male");
+}else{
+	alert("you are a female");
+}
+
+
+var counter=100;
+while(counter>=1){
+	if(counter%2==0){
+		counter--;
+		continue;
+			}
+		document.write(counter+"<br>");
+	counter--;
+}
+var i=0;
+while(i<10){
+	if(i==4){
+		break;
+	}
+	alert(i);
+	i++;
+}
